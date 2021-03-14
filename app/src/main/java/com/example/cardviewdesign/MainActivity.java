@@ -24,11 +24,14 @@ public class MainActivity extends AppCompatActivity {
         v3 = findViewById(R.id.charla);
         v3.setImageResource(R.drawable.ic_baseline_chat_24);
 
+
         v4 = findViewById(R.id.calendar);
         v4.setImageResource(R.drawable.ic_calendar);
 
         v5 = findViewById(R.id.informe);
         v5.setImageResource(R.drawable.ic_info);
+
+        v5.setPadding(0,12,0,0);
 
     }
 
